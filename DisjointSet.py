@@ -27,3 +27,6 @@ class DisjointSet:
         y = self.Find(b)
  
         self.parent[x] = y
+
+    def printSets(universe, ds):
+        print([self.Find(i) for i in universe])   
